@@ -1,0 +1,80 @@
+.header {
+    max-width: 100%;
+    min-height: 900px;
+    background-image: url(../img/nav-back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__inner {
+        padding-top: 25px;
+    }
+    &__list {
+        padding-top: 3px;
+        display: flex;
+        align-items: center;
+        a {
+            font-weight: 600;
+            color: #FFFFFF;
+            text-transform: capitalize;
+        }
+        a:hover {
+            text-decoration: none;
+            color: $green;
+        }
+    }
+    &__link {
+        padding-right: 50px;
+    }
+}
+
+.header__text {
+    margin: 0 auto;
+    padding: 180px 0 230px;
+    text-align: center;
+    &-title {
+        font-size: 80px;
+        line-height: 116px;
+        font-family: 'Kaushan Script', cursive;
+        color: #FFFFFF;
+    }
+    &-paragraph {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+        color: #FFFFFF;
+        padding-top: 50px;
+    }
+}
+
+.header__scroll-arrow {
+    text-align: center;
+    margin-left: auto;
+    p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+}
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
