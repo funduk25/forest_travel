@@ -5,25 +5,31 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    &__inner {
-        padding-top: 25px;
+}
+
+.nav-item {
+    padding-right: 45px;
+    &::after {
+        content: "";
+        display: block;
+        width: 100%;
+        background-color: #FFFFFF;
+        height: 1px;
+        transform: scale(0);
+        transition: all .3s;
     }
-    &__list {
-        padding-top: 3px;
-        display: flex;
-        align-items: center;
-        a {
-            font-weight: 600;
-            color: #FFFFFF;
-            text-transform: capitalize;
-        }
-        a:hover {
-            text-decoration: none;
-            color: $green;
-        }
+    &:hover::after {
+        transform: scale(1);
     }
-    &__link {
-        padding-right: 50px;
+}
+
+.nav-link {
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    &:hover {
+        color: $green;
     }
 }
 
@@ -38,7 +44,7 @@
         color: #FFFFFF;
     }
     &-paragraph {
-        font-weight: 500;
+        font-weight: 300;
         font-size: 30px;
         line-height: 35px;
         color: #FFFFFF;

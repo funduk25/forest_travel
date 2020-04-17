@@ -15,42 +15,35 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="header__inner row">
-                <div class="header__logo col-3 ">
-                    <a class="header__logo-icon" href=""><img src="./img/logo.png" alt=""></a>
-                </div>
-                <div class="header__menu col-9  d-flex justify-content-end">
-                    <ul class="header__list">
-                        <li class="header__link">
-                            <a href="#">home</a>
+            <nav class="navbar navbar-expand-lg ">
+                <a href="#" class="navbar-brand"><img src="./img/logo.png" alt=""></a>
+                <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                </button>
+                <div id="my-nav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Home</a>
                         </li>
-                        <li class="header__link">
-                            <a href="#">about</a>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">About</a>
                         </li>
-                        <li class="header__link">
-                            <a href="#">gallery</a>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Gallery</a>
                         </li>
-                        <li class="header__link">
-                            <a href="#">contacts</a>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Contacts</a>
                         </li>
                     </ul>
                 </div>
-                <div class="header__text col-10">
-                    <div class="header__text-title">
-                        Walk through the morning forest
-                    </div>
-                    <div class="header__text-paragraph">
-                        There is only clean air and peace.
-                    </div>
-                </div>
-                <div class="header__scroll col-12">
-                    <div class="header__scroll-text">
+            </nav>
 
-                    </div>
-                    <div class="header__scroll-arrow bounce">
-                        <p>Click to continue.</p>
-                        <a class="fa fa-arrow-down fa-2x" href="#"> <img src="./img/arrow.svg" width="50px" alt=""></a>
-                    </div>
+            <div class="header__text col-10">
+                <div class="header__text-title">
+                    Walk through the morning forest
+                </div>
+                <div class="header__text-paragraph">
+                    There is only clean air and peace.
                 </div>
             </div>
         </div>
