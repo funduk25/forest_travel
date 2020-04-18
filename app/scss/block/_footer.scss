@@ -1,0 +1,37 @@
+.footer {
+    background-image: url(../img/footer.jpg );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 433px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    &__inner {
+        padding: 60px 0 170px;
+    }
+    ul {
+        padding-top: 25px;
+    }
+    a {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 38px;
+        color: #FFFFFF;
+        &:hover {
+            text-decoration: none;
+            color: $green;
+        }
+    }
+}
+
+.footer__logo {
+    &-text {
+        padding-top: 15px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        text-align: initial;
+    }
+}
