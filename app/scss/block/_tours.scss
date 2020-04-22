@@ -1,0 +1,47 @@
+.tours__item {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+.tours__text {
+    position: absolute;
+    bottom: 15px;
+    z-index: 100;
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+    transition: all .3s linear;
+    &-forest {
+        background: #B9A38C;
+    }
+    &-desert {
+        background: #B9A38C;
+    }
+    &-lakes {
+        background: #519C95;
+    }
+    &-snow {
+        background: #573C2C;
+    }
+    &-water {
+        background: #506D4D;
+    }
+    &-link {
+        font-family: Raleway;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 39px;
+        color: #FFFFFF;
+        padding: 15px 0 15px 40px;
+        &:hover {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+}
+
+.tours__item:hover .tours__text {
+    height: 65px;
+}

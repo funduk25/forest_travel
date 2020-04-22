@@ -1,24 +1,15 @@
-    .gallery__title {
-        font-weight: 600;
-        font-size: 50px;
-        line-height: 65px;
-        text-align: center;
-        color: $black;
-        margin: 150px 0 60px;
-    }
-    
-    .gallery__inner {
-        margin-bottom: 140px;
-        img {
-            width: 100%;
-            padding-bottom: 30px;
-            &:hover {
-                transform: scale(0.9);
-                transition: all .3s;
-            }
+.gallery__inner {
+    margin-bottom: 140px;
+    img {
+        width: 100%;
+        padding-bottom: 30px;
+        &:hover {
+            transform: scale(0.9);
+            transition: all .3s;
         }
     }
-    
-    .forest {
-        border-radius: 5px;
-    }
+}
+
+.forest {
+    border-radius: 5px;
+}
