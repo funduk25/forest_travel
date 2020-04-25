@@ -1,0 +1,49 @@
+.hiking {
+    padding-top: 150px;
+    font-family: Raleway;
+}
+
+.hiking__nav {
+    margin-right: 50px;
+}
+
+.hiking__nav-link {
+    color: $blue;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    &::after {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 100%;
+        height: 2px;
+        background: rgba(156, 156, 156, 0.2);
+        border: solid #FFF;
+        border-width: 0 .2px 0;
+    }
+}
+
+.hiking__post {
+    img {
+        padding-bottom: 30px;
+    }
+    &-title {
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 65px;
+        text-align: left;
+        color: #343A40;
+        padding-bottom: 50px;
+    }
+    &-text {
+        padding-bottom: 30px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+        letter-spacing: 0.05em;
+        color: #343A40;
+        text-align: justify;
+    }
+}

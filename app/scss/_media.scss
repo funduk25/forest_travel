@@ -1,34 +1,40 @@
-  @media (max-width: 576px) {}
-  
-  @media (max-width: 768px) {
-      .nav__gallery {
-          background-color: rgba(0, 0, 0, 0.3);
-          border-radius: 20px;
-          text-align: center;
-      }
-      .content__text-btn {
-          display: block;
-          width: 100%;
-      }
-      .gallery__inner {
-          text-align: center;
-          img {
-              padding-top: 15px;
-          }
-      }
-      .tours__inner {
-          text-align: center;
-      }
-  }
-  
-  @media (max-width: 992px) {
-      .content__text {
-          padding-bottom: 20px;
-          text-align: center;
-      }
-      .content__image {
-          text-align: center;
-      }
-  }
-  
-  @media (min-width: 1200px) {}
+@media (max-width: 576px) {}
+
+@media (max-width: 768px) {
+    .nav__gallery {
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+        text-align: center;
+    }
+    .content__text-btn {
+        display: block;
+        width: 100%;
+    }
+    .gallery__inner {
+        text-align: center;
+        img {
+            padding-top: 15px;
+        }
+    }
+    .tours__inner {
+        text-align: center;
+    }
+    .tours__text-link {
+        font-size: 20px;
+    }
+    .hiking__nav {
+        text-align: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .content__text {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .content__image {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {}
