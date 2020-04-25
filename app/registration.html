@@ -43,48 +43,80 @@
     </header>
     <!-- ====end header fluid==== -->
 
-    <!-- ==== hiking==== -->
-    <section class="hiking">
+    <section class="registration">
         <div class="container">
-            <div class="hiking__inner row ">
-                <div class="hiking__nav col-md-3">
-                    <nav class="nav flex-column ">
+            <div class="main__title">Registration</div>
+            <div class="registration__inner row">
+                <div class="registration__nav col-md-3">
+                    <nav class="nav  flex-column ">
                         <div class="nav-title">
                             More information
                         </div>
                         <a class="nav-link hiking__nav-link" href="tours.html">About company</a>
                         <a class="nav-link hiking__nav-link" href="# ">Link to next article</a>
                         <a class="nav-link hiking__nav-link" href="# ">Link to next article</a>
-                        <a class="nav-link active hiking__nav-link " href="hiking.html">Hiking training</a>
-                        <a class="nav-link hiking__nav-link nav-link-reg" href="registration.html">Registration</a>
+                        <a class="nav-link hiking__nav-link" href="hiking.html">Hiking training</a>
+                        <a class="nav-link hiking__nav-link active" href="registration.html">Registration</a>
                     </nav>
                 </div>
-                <div class="hiking__post col-md-8">
-                    <div class="hiking__post-title">
-                        Hiking training
+                <div class="registration__form col-md-7">
+                    <div class="registration__title">
+                        Application for selection of a tour
                     </div>
-                    <p class="hiking__post-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi
-                        etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus
-                    </p>
-                    <img src="./img/hiking/hiking__post.jpg" width="100%" alt="">
-                    <p class="hiking__post-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi
-                        etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus
-                    </p>
-                    <p class="hiking__post-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi
-                        etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus
-                    </p>
-                    <p class="hiking__post-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi
-                        etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus
-                    </p>
+                    <form action="#" class="registration__forms row">
+                        <div class="registration__form-title">Personal data</div>
+                        <div class="form__personal row">
+                            <div class="col-md-12">
+                                <input type="text" class="form-control form-control__reg" placeholder="Surname and name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control form-control__reg" placeholder="Telephone">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control form-control__reg" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form__number row flex-column">
+                            <div class="registration__form-title">Number of people for the tour</div>
+                            <div class="custom-control custom-radio col-12">
+                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio1">2 - 4 people</label>
+                            </div>
+                            <div class="custom-control custom-radio col-12">
+                                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio2">75 people and more</label>
+                            </div>
+                            <div class="custom-control custom-radio col-12">
+                                <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio3">5 to 50 people</label>
+                            </div>
+                        </div>
+                        <div class="form__requirements">
+                            <div class="registration__form-title">What are your tour requirements</div>
+                            <div class="custom-control custom-checkbox col-md-12">
+                                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                <label class="custom-control-label" for="customCheck1">Lorem ipsum dolor sit amet</label>
+                            </div>
+                            <div class="custom-control custom-checkbox col-md-12">
+                                <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                <label class="custom-control-label" for="customCheck2">Lorem ipsum dolor sit amet</label>
+                            </div>
+                            <div class="custom-control custom-checkbox col-md-12">
+                                <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                <label class="custom-control-label" for="customCheck3">Lorem ipsum dolor sit amet</label>
+                            </div>
+                            <div class="custom-control custom-checkbox col-md-12">
+                                <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                <label class="custom-control-label" for="customCheck4">Lorem ipsum dolor sit amet</label>
+                            </div>
+                        </div>
+                        <button type="button" class="registration__btn">Send request</button>
+                    </form>
                 </div>
             </div>
         </div>
+        </div>
     </section>
-    <!-- ==== end hiking==== -->
 
     <!-- ====footer==== -->
     <footer class="footer ">

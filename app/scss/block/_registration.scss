@@ -1,0 +1,81 @@
+.registration {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    color: $black;
+    &__title {
+        padding-bottom: 40px;
+    }
+    &__nav {
+        margin-right: 120px;
+    }
+}
+
+.registration__form {
+    padding: 60px 98px;
+    margin-bottom: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    &-title {
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 32px;
+        padding-bottom: 30px;
+    }
+}
+
+.registration__forms {
+    padding: 0 98px;
+}
+
+.form__personal input {
+    margin-bottom: 15px;
+    background: #EBEBEB;
+    border: 2px solid #9C9C9C;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #9C9C9C;
+    height: 60px;
+}
+
+.form__number {
+    padding: 40px 0;
+    text-align: left;
+    .custom-control {
+        padding-bottom: 15px;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        color: $black;
+    }
+    .custom-control-label {
+        padding-left: 10px;
+    }
+}
+
+.form__requirements {
+    .custom-control-label {
+        padding-left: 10px;
+    }
+}
+
+.registration__btn {
+    border: none;
+    background-color: $green;
+    box-shadow: 0px 5px 30px rgba(40, 167, 69, 0.4);
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding: 15px 53px;
+    margin-top: 75px;
+}
