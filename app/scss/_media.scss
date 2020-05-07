@@ -29,6 +29,12 @@
         text-align: center;
         margin-right: 0;
     }
+    .nav-item {
+        padding-right: 0;
+    }
+    .navbar {
+        align-items: center;
+    }
 }
 
 @media (max-width: 992px) {
